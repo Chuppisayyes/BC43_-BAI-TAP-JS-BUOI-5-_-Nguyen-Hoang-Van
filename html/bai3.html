@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="../img/icon-jrry.jfif">
+  <title>Chuppi Tèo</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  
+  
+  <!-- Font Roboto  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+      
+  <!-- font pacifico -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- link css -->
+  <link rel="stylesheet" href="../CSS/custombaitap.css">
+
+</head>
+
+<body>
+  <div class="header">
+    <ul>
+        <li><a href="../index.html" class="element-hover">Home</a></li>
+        <li><a href="../html/bai1.html" class="element-hover">Quản Lý Tuyển Sinh</a></li>
+        <li><a href="../html/bai2.html" class="element-hover">Tính Tiền Điện</a></li>
+        <li><a href="../html/bai3.html" class="element-selected">Tính Thuế Thu Nhập Cá Nhân</a></li>
+        <li><a href="../html/bai4.html" class="element-hover">Tính Tiền Cáp</a></li>
+      </ul>
+</div>
+<div class="container">
+  <div class="box">
+    <h1>Tính Thuế Thu Nhập Cá Nhân</h1>
+    <div class="alert alert-warning">
+      <span>Tax department ~ by Tèo </span>
+      <i class="fa-solid fa-coins"></i>
+    </div>
+    <div class="form-group">
+      <span>Nhập tên: </span>
+      <input type="text" id="name" placeholder="Nhập họ tên">
+      <br>
+      <span>Tổng thu nhập năm (Đơn vị Triệu): </span>
+      <input type="number" id="tong-thu-nhap" placeholder="Vui lòng nhập">
+      <br>
+      <span>Số người phụ thuộc: </span>
+      <input type="number" id="so-nguoi-phu-thuoc" placeholder="Vui lòng nhập">
+      <br>
+      <button onclick="tinhTienThue()" class="btn-css">Tính Tiền Thuế</button>
+  </div>
+  <div class="alert alert-success">
+    Họ tên: <span id="ket-qua-bai-3"></span>
+    </div>
+</div>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="../JS/index.js"></script>
+</body>
+
+</html>
